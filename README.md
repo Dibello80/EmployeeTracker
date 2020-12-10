@@ -28,11 +28,11 @@ The application features the following features :
 The following necessary dependencies must be installed to run the application properly: INQUIRER, MYSQL, CONSOLE-TABLE-PRINTER, ASCIIART-LOGO 
 # Usage
 ![alt text](https://github.com/Dibello80/EmployeeTracker/blob/main/screenshots/img.png)
-Video demo link => https://drive.google.com/file/d/1nl5uNnGaHCAaevrPlPtF23wEbAVeGQ-f/view
+Video demo link => https://drive.google.com/file/d/1Pauqv_JqOwz4Whx-iTq-rMyb4Yml3Uaq/view
 # License
 This project is license under the MIT license.
 # Contributing
-​Contributors: UCLAextension, Coders community, Angelo Rocky Dibello
+UCLAextension, Coders community, Angelo Rocky Dibello
 # Tests
 To run tests, you need to run the following command: node app.js
 # Questions
