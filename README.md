@@ -17,7 +17,6 @@ The application features the following features :
 10. REMOVE Employees
 11. View BUDGET for ALL departments in company
 
-<<<<<<< HEAD
 # Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -38,52 +37,3 @@ This project is license under the MIT license.
 To run tests, you need to run the following command: node app.js
 # Questions
 If you have any questions about the repo you can contact Dibello80 directly to: angelodibellomusic@gmail.com.
-=======
-## Repository 
-
-Click the link below to check the repository :
-
-[GitHub URL](https://github.com/Dibello80/EmployeeTracker.git)
-
-## Demo
-![alt text](https://github.com/Dibello80/EmployeeTracker/blob/main/screenshots/img.png)
-
-
-
-## Requirements
-
-For testing, you will need Node.js and node global package, and also the following dependency packages installed in your environement.  
-
-### Node
-
- Just go on [official Node.js website](https://nodejs.org/) and download the installer.
-
-Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).  
-
-
-### NPM Packages
-
-- INQUIRER -- prompt CLI questions 
-- MYSQL -- Database to INSERT/UPDATE/DELETE 
-- ASCIIART-LOGO -- Intro Logo Headers
-- CONSOLE-TABLE-PRINTER -- Table formatting in CLI
-
-
-## Running the Application
-
-Run the following commands in your terminal window 
-
-```bash
-git clone https://github.com/Dibello80/EmployeeTracker.git
-
-cd EmployeeTracker
-
-npm install
-```
-
-All packages will be installed and now run the application with the command below : 
-
-```bash
-node app.js
-```
->>>>>>> a7072e68f2b06de693297a238ffd362b7ba3a4d5
