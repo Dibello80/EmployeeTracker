@@ -1,13 +1,6 @@
 # EmployeeTracker
 Companies often require an application to manage all employees working in a company. Human resources department uses applications like these to ADD/UPDATE/DELETE employees and their ROLES/DEPARTMENTS/SALARIES etc. This app was developed using NODE, INQUIRER and MySQL.
 
-> AS A Human resources head in a company
->
-> I WANT to INSERT/UPDATE/DELETE for employees , departments or roles in the company
->
-> SO THAT I can maintain all departments and calculate budget etc.
-
-
 The application features the following features : 
 
 1. View ALL Employees
