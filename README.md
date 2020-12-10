@@ -1,5 +1,7 @@
 # EmployeeTracker
-Companies often require an application to manage all employees working in a company. Human resources department uses applications like these to ADD/UPDATE/DELETE employees and their ROLES/DEPARTMENTS/SALARIES etc. This app was developed using NODE, INQUIRER and MySQL.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Dibello80/EmployeeTracker.git)
+# Description
+  Companies often require an application to manage all employees working in a company. Human resources department uses applications like these to ADD/UPDATE/DELETE employees and their ROLES/DEPARTMENTS/SALARIES etc. This app was developed using NODE, INQUIRER and MySQL.
 
 The application features the following features : 
 
@@ -15,49 +17,23 @@ The application features the following features :
 10. REMOVE Employees
 11. View BUDGET for ALL departments in company
 
-## Repository 
-
-Click the link below to check the repository :
-
-[GitHub URL](https://github.com/Dibello80/EmployeeTracker.git)
-
-## Demo
-
-
-
-## Requirements
-
-For testing, you will need Node.js and node global package, and also the following dependency packages installed in your environement.  
-
-### Node
-
- Just go on [official Node.js website](https://nodejs.org/) and download the installer.
-
-Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).  
-
-
-### NPM Packages
-
-- INQUIRER -- prompt CLI questions 
-- MYSQL -- Database to INSERT/UPDATE/DELETE 
-- ASCIIART-LOGO -- Intro Logo Headers
-- CONSOLE-TABLE-PRINTER -- Table formatting in CLI
-
-
-## Running the Application
-
-Run the following commands in your terminal window 
-
-```bash
-git clone https://github.com/Dibello80/EmployeeTracker.git
-
-cd EmployeeTracker
-
-npm install
-```
-
-All packages will be installed and now run the application with the command below : 
-
-```bash
-node app.js
-```
+# Table of Contents 
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+# Installation
+The following necessary dependencies must be installed to run the application properly: INQUIRER, MYSQL, CONSOLE-TABLE-PRINTER, ASCIIART-LOGO 
+# Usage
+![alt text](https://github.com/Dibello80/EmployeeTracker/blob/main/screenshots/img.png)
+Video demo link => https://drive.google.com/file/d/1nl5uNnGaHCAaevrPlPtF23wEbAVeGQ-f/view
+# License
+This project is license under the MIT license.
+# Contributing
+​Contributors: UCLAextension, Coders community, Angelo Rocky Dibello
+# Tests
+To run tests, you need to run the following command: node app.js
+# Questions
+If you have any questions about the repo you can contact Dibello80 directly to: angelodibellomusic@gmail.com.
