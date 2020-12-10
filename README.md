@@ -27,7 +27,9 @@ The application features the following features :
 # Installation
 The following necessary dependencies must be installed to run the application properly: INQUIRER, MYSQL, CONSOLE-TABLE-PRINTER, ASCIIART-LOGO 
 # Usage
-![alt text](https://github.com/Dibello80/EmployeeTracker/blob/main/screenshots/img.png)
+![alt text](https://github.com/Dibello80/EmployeeTracker/blob/main/screenshots/img.png) 
+![alt text](https://github.com/Dibello80/EmployeeTracker/blob/main/screenshots/mysqlshot.png)
+
 Video demo link => https://drive.google.com/file/d/1Pauqv_JqOwz4Whx-iTq-rMyb4Yml3Uaq/view
 # License
 This project is license under the MIT license.
