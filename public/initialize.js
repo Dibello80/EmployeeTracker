@@ -1,21 +1,20 @@
-////////////////// Dependencies
+// Dependencies
 
 const inquirer = require('inquirer');
 var mysql = require("mysql");
 
 const { printTable } = require('console-table-printer');
 
-////////////////// Initialize variables and arrays
+// Initialize variables and arrays
 
 var employeeRolesNames = [];
 var employeeFullName = [];
 var roleDepartment = [];
-
 var rolesArray = [];
 var employeesArray = [];
 var departmentsArray = [];
 
-////////////////// Create Database Connection to MySQL
+// Create Database Connection to MySQL
 
 var connection = mysql.createConnection({
     host: "localhost",
@@ -33,7 +32,7 @@ connection.connect(function(err) {
         cli();
       });
 
-////////////////// Prompt OPTIONS / FUNCTIONS to choose
+// Prompt OPTIONS / FUNCTIONS to choose
 
 function cli() {
   inquirer.prompt({
@@ -115,7 +114,7 @@ function cli() {
   });
   }
 
-//////////////////////////////////////// VIEW Functions
+// VIEW Functions
 
 // Function to view All Employees details : JOIN of all tables to give detail description
 function viewEmployees() {
@@ -203,7 +202,7 @@ function viewEmpByRoles() {
         }); 
     }) 
 }
-//////////////////////////////////////// ADD Functions
+// ADD Functions
 
 // Function to add a NEW EMPLOYEE
 async function addEmployee() {
@@ -366,7 +365,7 @@ async function removeEmployee() {
         })
 }
 
-//////////////////////////////////////// Get IDs  Functions
+// Get IDs  Functions
 
 // Function to UPDATE a specific EMPLOYEE
 async function updateEmployeeDetails(){
@@ -495,7 +494,7 @@ async function updateEmployeeDetails(){
 }
 
 
-//////////////////////////////////////// View Budget Functions
+// View Budget Functions
 
 // Function to view total BUDGET of the company grouped by department
 async function viewBudget(){
@@ -510,7 +509,7 @@ async function viewBudget(){
 
 }
 
-//////////////////////////////////////// get CHOICES Functions
+// get CHOICES Functions
 
 // Function to create a JSON array of all ROLES
 async function rolesJSON(){
@@ -548,7 +547,7 @@ async function departmentsJSON(){
 }
 
 
-//////////////////////////////////////// Get IDs  Functions
+// Get IDs  Functions
 
 // Function to get ROLE ID from choosen NAMES
 function getRoleID(employeeRole, array){
