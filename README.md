@@ -22,7 +22,7 @@ Click the link below to check the repository :
 [GitHub URL](https://github.com/Dibello80/EmployeeTracker.git)
 
 ## Demo
-![alt text]()
+![alt text](https://github.com/Dibello80/EmployeeTracker/blob/main/screenshots/img.png)
 
 
 
