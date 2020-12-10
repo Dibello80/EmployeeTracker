@@ -10,11 +10,11 @@ console.log(
         lineChars: 25,
         padding: 2,
         margin: 3,
-        borderColor: 'yellow',
-        logoColor: 'bold-red',
+        borderColor: 'blue',
+        logoColor: 'bold-yellow',
         textColor: 'yellow',
     })
     .emptyLine()
-    .right("@ianasqazi v1.0")
+    .right("Dibello80 v1.0")
     .render()
 );

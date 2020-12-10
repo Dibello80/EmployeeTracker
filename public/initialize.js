@@ -2,7 +2,6 @@
 
 const inquirer = require('inquirer');
 var mysql = require("mysql");
-
 const { printTable } = require('console-table-printer');
 
 // Initialize variables and arrays
@@ -341,7 +340,7 @@ async function addRole() {
     });
 }
 
-//////////////////////////////////////// REMOVE Functions
+// REMOVE Functions
 
 // Function to REMOVE an employee 
 async function removeEmployee() {
