@@ -11,8 +11,8 @@ console.log(
         padding: 2,
         margin: 3,
         borderColor: 'blue',
-        logoColor: 'bold-yellow',
-        textColor: 'yellow',
+        logoColor: 'black',
+        textColor: 'green',
     })
     .emptyLine()
     .right("Dibello80 v1.0")
