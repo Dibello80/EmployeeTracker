@@ -30,8 +30,7 @@ INSERT INTO employee (first_name,last_name,role_id,manager_id) VALUES ('Gerda','
 INSERT INTO employee (first_name,last_name,role_id,manager_id) VALUES ('Lynda','Boggs','5',NULL);
 INSERT INTO employee (first_name,last_name,role_id,manager_id) VALUES ('Merideth','Delao','2',NULL);
 INSERT INTO employee (first_name,last_name,role_id,manager_id) VALUES ('Selena','Gomes','2',NULL);
-INSERT INTO employee (first_name,last_name,role_id,manager_id) VALUES ('Thomas','Edison','16','18');
-INSERT INTO employee (first_name,last_name,role_id,manager_id) VALUES ('Brad','Pitt','17',NULL);
+
 
 -- INSERT into 'ROLE' QUERIES 
 
